@@ -1,0 +1,44 @@
+
+.card-box:hover{
+    transform: rotate(0deg);
+    transform: scale(1.1);
+}
+.card-box {
+    padding: 15px;
+    background-color: #fdfdfd;
+    margin: 20px 0px;
+    border-radius: 10px;
+    border: 1px solid #eee;
+    box-shadow: 0px 0px 8px 0px #d4d4d4;
+    transition: 0.5s;
+}
+.card-box:hover {
+	border: 2px solid #88e7a8;
+}
+.carousel-caption {
+    position: absolute;
+    width: 100%;
+}
+@media only screen and (max-width: 300px) {
+    .carousel-item img{
+        height: 30px;
+    }
+    .carousel-item .carousel-caption .btn{
+        margin-left: 40px;
+    }
+}
+@media only screen and (max-width: 600px){
+    .carousel-item .carousel-caption .btn{
+        margin-left: 60px;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .carousel-item .carousel-caption .btn{
+        margin-left: 120px;
+    }
+}
+@media only screen and (max-width: 900px) {
+    .carousel-item .carousel-caption .btn{
+        margin-left: 220px;
+    }
+}
