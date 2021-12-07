@@ -22,6 +22,11 @@
 .carousel-item .carousel-caption .btn{
     margin-left: 500px;
 }
+@media only screen and (max-width: 300px){
+    .carousel-item .carousel-caption .btn{
+        margin-left: 40px;
+    }
+}
 @media only screen and (max-width: 600px){
     .carousel-item .carousel-caption .btn{
         margin-left: 60px;
